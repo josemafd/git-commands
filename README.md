@@ -10,7 +10,7 @@ git local
 - git add <folder> - add folder and subfiles to repository
 - git commit -m "comment" - validate changes to the repository
 
-- git rm -r <folder> - delete folder from local repository $ git rm -r <folder> - delete folder from local repository
+- git rm -r <folder> - delete folder from local repository
 
 Whenever a change is made to the local repository it should always be commented with git commit, to validate the changes in our git repository.
 
