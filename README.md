@@ -22,8 +22,6 @@ git remote add origin <url of the repository> - add remote directory to the loca
 
 git push origin master - upload files to our remote repository to the master root.
 
-Translated with www.DeepL.com/Translator (free version)
-
 # Español
 
 git local
