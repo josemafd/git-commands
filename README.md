@@ -5,12 +5,12 @@ basic commands for uploading, modifying and deleting files in git
 
 git local
 
-git init - create a repository locally
+$ git init - create a repository locally
 $ git status - look at the status of our git repository
-git add <folder> - add folder and subfiles to repository
-git commit -m "comment" - validate changes to the repository
+$ git add <folder> - add folder and subfiles to repository
+$ git commit -m "comment" - validate changes to the repository
 
-git rm -r <folder> - delete folder from local repository $ git rm -r <folder> - delete folder from local repository
+$ git rm -r <folder> - delete folder from local repository $ git rm -r <folder> - delete folder from local repository
 
 Whenever a change is made to the local repository it should always be commented with git commit, to validate the changes in our git repository.
 
@@ -18,9 +18,9 @@ To finish uploading it to our git server, we will do the following steps.
 
 git remote
 
-git remote add origin <url of the repository> - add remote directory to the local repository, this will only be done once.
+$ git remote add origin <url of the repository> - add remote directory to the local repository, this will only be done once.
 
-git push origin master - upload files to our remote repository to the master root.
+$ git push origin master - upload files to our remote repository to the master root.
 
 # Español
 
